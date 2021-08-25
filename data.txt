@@ -1,0 +1,1089 @@
+<style>
+        .px-50 {
+            padding: 0 2.5625rem;
+        }
+        
+        .px-60 {
+            padding: 0 3.75rem;
+        }
+        
+        .px-177 {
+            padding: 1.25rem 1.66rem;
+        }
+        
+        .py-90 {
+            padding: 1.875rem 0;
+        }
+        
+        .pt-16 {
+            padding-top: 1rem;
+        }
+        
+        .tr-hover:hover {
+            background: #F0FFF8;
+            border-bottom: 1px solid #0FEBC0 !important;
+            font-weight: bold;
+        }
+        
+        .tr-hover:hover .icon-img {
+            transform: translateX(0.3125rem);
+            transition: all .4s;
+        }
+        
+        .reading-hover:hover {
+            background: #0FEBC0 !important;
+            border: transparent !important;
+            transition: all .4s;
+            text-decoration: underline !important;
+        }
+        
+        .line-h {
+            line-height: 4.0625rem;
+        }
+        
+        .reading-line {
+            height: 6.125rem;
+            line-height: 6.125rem;
+        }
+        
+        .iphone-img-1 {
+            width: 80%;
+            margin-left: -7.5rem;
+        }
+        
+        .iphone-img-2 {
+            width: 60%;
+            margin-left: -3.5rem;
+        }
+        
+        .iphone-img-3 {
+            width: 65%;
+            margin-left: -3.5rem;
+        }
+        
+        .font-size-42 {
+            font-size: 1.7rem;
+        }
+        /*tab栏切换*/
+        
+        .nav-tabs .nav-link.active,
+        .nav-tabs .nav-item.show .nav-link {
+            color: #000000 !important;
+            font-weight: bold !important;
+            background-color: #0FEBC0 !important;
+            border: none !important;
+        }
+        
+        .nav-tabs .nav-link {
+            border: 1px solid #000000 !important;
+        }
+        
+        .nav-link {
+            padding: 0 0 !important;
+        }
+        
+        .nav-tabs {
+            border: none !important;
+        }
+        /*轮播图*/
+        
+        .swiper-container-horizontal>.swiper-pagination-bullets,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+            bottom: -1.5rem !important;
+        }
+        
+        .swiper-slide-active p {
+            margin-bottom: 2rem !important;
+        }
+        
+        .swiper-pagination {
+            position: static !important;
+        }
+        
+        .swiper-pagination-bullet-active {
+            background: #36F2B9 !important;
+        }
+        
+        .swiper-button-next,
+        .swiper-button-prev {
+            margin-top: -5.125rem !important;
+        }
+        
+        .swiper-pagination-bullet {
+            width: 1rem !important;
+            height: 1rem !important;
+        }
+        
+        .swiper-button-next {
+            background-image: url(https://toolbox.iskysoft.com/images/article/Vector\ 5.png) !important;
+        }
+        
+        .swiper-button-next:hover {
+            background-image: url(https://toolbox.iskysoft.com/images/article/ver.png) !important;
+        }
+        
+        .swiper-button-prev {
+            background-image: url(https://toolbox.iskysoft.com/images/article/Vector\ 6.png) !important;
+        }
+        
+        .swiper-button-prev:hover {
+            background-image: url(https://toolbox.iskysoft.com/images/article/ver.png) !important;
+            transform: rotate(-180deg);
+        }
+        
+        .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+            margin: 0 1rem !important;
+        }
+        /*折叠*/
+        
+        .list-group-item {
+            border: 1px solid #E0E0E0 !important;
+            margin-top: 1.5rem;
+            padding-left: 2.375rem !important;
+        }
+        
+        .more {
+            width: 1.5rem;
+            height: 1.5rem;
+            background-image: url(https://toolbox.iskysoft.com/images/article/more.png);
+            background-repeat: no-repeat;
+        }
+        
+        .list-group [aria-expanded="true"] {
+            background-color: #F0FFF8;
+            border: transparent !important;
+            border-bottom: 1px solid #0FEBC0 !important;
+        }
+        
+        [data-toggle=collapse][aria-expanded=true] .more {
+            background-image: url(https://toolbox.iskysoft.com/images/article/more-1.png) !important;
+        }
+        
+        [data-toggle=collapse][aria-expanded=true] .tips-text {
+            opacity: 0;
+        }
+        /*媒体查询*/
+        
+        @media (min-width:1900px) {
+            .video-img {
+                margin-right: 0rem !important;
+                margin-top: 2rem !important;
+            }
+            .logo-img-1 {
+                height: 75%;
+            }
+        }
+        
+        @media (min-width:1400px) {
+            .video-img {
+                margin-right: -14rem;
+                margin-top: 4.375rem;
+            }
+            .pt-xxl-8 {
+                padding-top: .5rem !important;
+            }
+        }
+        /*   @media (max-width:1680px) {
+            .video-img {
+                margin-top: -10rem;
+                margin-right: 4rem;
+            }
+        } */
+        
+        @media (max-width:1370px) {
+            .display-3 {
+                font-size: 2rem !important;
+            }
+            .display-4 {
+                font-size: 2rem !important;
+            }
+            .video-img {
+                margin-right: -6.5rem;
+                margin-top: 4.5rem;
+            }
+            .line-h {
+                line-height: 3.0625rem !important;
+            }
+            .font-size-super {
+                font-size: 1.1rem !important;
+            }
+        }
+        
+        @media (min-width:1200px) {
+            .px-100 {
+                padding: 0 6.1875rem !important;
+            }
+            .px-75 {
+                padding: 0 4.6875rem;
+            }
+            .swiper-button-next {
+                margin-right: 8.125rem;
+            }
+            .swiper-button-prev {
+                margin-left: 8.125rem;
+            }
+        }
+        
+        @media (max-width:1024px) {
+            .read-img {
+                width: 40%;
+            }
+            .video-img {
+                margin-top: 2.5rem;
+                margin-right: -1rem;
+            }
+            .line-h {
+                line-height: normal !important;
+            }
+            .iphone-img-3 {
+                width: 95%;
+            }
+            .ul-width {
+                width: 60%;
+                margin: 0 auto;
+                padding-bottom: 1.5rem !important;
+            }
+            .display-4,
+            .lead {
+                font-size: 1.5rem !important;
+            }
+            .more {
+                background-image: none !important;
+            }
+            [data-toggle=collapse][aria-expanded=true] .more {
+                background-image: none !important;
+            }
+        }
+        
+        @media (max-width:770px) {
+            .video-img {
+                width: 40%;
+                margin-top: 2rem;
+                margin-right: -5rem;
+            }
+            .simple-img {
+                width: 80%;
+            }
+        }
+        
+        @media (max-width:380px) {
+            .swiper-button-next {
+                background-image: none !important;
+            }
+            .swiper-button-prev {
+                background-image: none !important;
+            }
+            .simple-img {
+                width: 95%;
+            }
+            .video-img {
+                width: 20%;
+                margin-left: -1rem;
+            }
+            .iphone-img-2 {
+                width: 40%;
+            }
+            .iphone-img-1 {
+                width: 50%;
+                margin-left: -2rem;
+            }
+            .iphone-img-3 {
+                width: 50%;
+            }
+            .logo-img-1,
+            .logo-img-2 {
+                width: 90%;
+            }
+            .read-img {
+                width: 50%;
+            }
+            .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+                margin: .5rem !important;
+            }
+            /*头部背景图*/
+            .section-1 {
+                background-position: 81% 26% !important;
+            }
+            .font-size-42 {
+                font-size: 1.5rem;
+            }
+            .display-4 {
+                font-size: 1.8rem !important;
+            }
+            .display-3 {
+                font-size: 1.6rem !important;
+            }
+            .ul-width {
+                width: 100%;
+            }
+        }
+        
+        .td-2 {
+            width: 40.5rem;
+        }
+        
+        .td-3 {
+            width: 21.25rem;
+        }
+    </style>
+
+<section style="background-image: url( https://toolbox.iskysoft.com/images/article/banner.png);background-repeat: no-repeat;background-size: cover;background-position: center;" class=" d-flex justify-content-center pb-5 section-1">
+        <!--   <img src=" https://toolbox.iskysoft.com/images/article/Mask Group (2).png" alt="" class=" img-fluid"> -->
+        <div class="container pb-4">
+            <div class="row d-flex justify-content-center pb-xl-3">
+                <div class="col-xl-7 col-md-8 order-1 order-md-0 ">
+                    <h1 style="color: #FFFFFF;font-family: Nunito; " class="display-3 font-weight-bold mt-md-5 pt-3 line-h text-center text-md-left">Remove iPhone & Android Lock Screen Without Data Loss!</h1>
+                    <h2 style="color: #FFFFFF; font-family: Nunito; line-height: 1.5625rem;" class="font-size-large font-weight-normal mt-xl-4 text-md-left text-center">Professional screen unlock software for iOS and Android, no matter you forgot the password or just get lock screen in various scenarios. With easy clicks, dr.fone supports to remove all types of lock screen in any scenarios with 5
+                        unlock modes. </h2>
+                    <div class="d-lg-flex font-weight-bold font-size-large  mt-xl-5 pt-5" style="font-family: Messina Sans">
+                        <a href="#" style="text-decoration: none; color: #000000;"> <span class=" px-177" style="background: #36F2B9; border-radius: 45px;"><img src=" https://toolbox.iskysoft.com/images/article/windows.svg" alt=""><span class="ml-2">Download</span></span>
+                        </a>
+                        <a href="#" style="text-decoration: none; color: #000000;"> <span class=" px-177 ml-3" style="background: #36F2B9; border-radius: 45px;"><img src=" https://toolbox.iskysoft.com/images/article/mac.svg" alt=""><span class="ml-2">Download</span></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-md-4  pt-md-5 ">
+                    <div class="m-5 text-center  pt-xxl-5" data-toggle="youtube" data-type="modal" data-youtube="l15F-DGSl5I"><img src=" https://toolbox.iskysoft.com/images/article/Group212638.png" alt="" class="   video-img"> </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class=" mt-5">
+        <div class="container pl-md-5 py-3" style="background: rgba(0, 168, 236, 0.05);">
+            <div class="font-size-large pl-md-5 ml-md-3" style="font-family: Nunito;">
+                <ul class="">
+                    <li style="line-height: 1.5625rem" class="py-3"><a href="#" class="font-weight-bold" style="color: #000000;">Past 1. Bypass iPhone & Android Lock Screen in Any Scenarios Anytime ! </a></li>
+                    <li style="line-height: 1.5625rem" class=""><a href="#" class="" style="color: #000000;">Psat 2. Remove All Types of Lock Screen on iOS & Android. </a></li>
+                    <li style="line-height: 1.5625rem" class="py-3"><a href="#" class="" style="color: #000000;">Past 3. Tips & Tricks on Screen Unlock/Data Management.</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section style="font-family: Nunito;" class="pt-md-5 mt-md-4">
+        <div class="container">
+            <h2 class="text-center display-4 font-weight-bold mt-5" style="color: #301D5B;">Past 1. Bypass iPhone & Android Lock Screen in Any Scenarios Anytime !</h2>
+            <h3 class="text-center font-size-large font-weight-normal pt-3">Dr. Fone - Screen Unlock enables you to easily bypass iPhone &Android lock screen in any scenarios, </h3>
+
+            <p class="text-center pt-2">
+                <!--加文字在这里-->
+                if you are looking for a second-hand or used mobile phone, you must keep in mind these points. stay away from stolen phones Check hardware thoroughly choose according to your budget watch out for fake phone execute a service code test Buying a second
+                hand or old mobile is the best way to save money. But is important to check all the factors to avoid any kind of inconvenience.if you are looking for a second-hand or used mobile phone, you must keep in mind these points. stay away from
+                stolen phones Check hardware thoroughly choose according to your budget watch out for fake phone execute a service code test Buying a second hand or old mobile is the best way to save money. But is important to check all the factors to
+                avoid any kind of inconvenience.</p>
+            <h2 class=" text-center lead font-weight-bold mt-5 pb-2 ">How to Bypass iOS & Android Lock Screen Caused by Different Scenarios?</h2>
+            <div class="row d-flex justify-content-center mb-4 my-xl-5 mt-4">
+                <div class="col-md-4 mt-xl-0 mt-3">
+                    <a href="#forgot" style="border: 1px solid #404040;text-decoration: none;color: #000000;" class="d-block  font-size-super font-weight-bold  pt-16  pt-xxl-8  pb-md-2 pb-3   h-100 text-center reading-hover">
+                             Forgot/UnknownPasscode/<br>br Second-hand Device
+                        </a>
+                </div>
+                <div class="col-md-4 mt-xl-0 mt-3">
+                    <a href="#iphone" style="border: 1px solid #404040;color: #000000; text-decoration: none;" class="d-block font-size-super font-weight-bold  reading-line text-center  reading-hover">
+                              iPhone/ Android Disabled
+                        </a>
+                </div>
+                <div class="col-md-4 mt-xl-0 mt-3">
+                    <a href="#physical" style="border: 1px solid #404040;text-decoration: none; color: #000000" class="d-block text-center font-size-super font-weight-bold reading-line text-center  reading-hover">
+                             Physical damaged
+                        </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="background: rgba(0, 168, 236, 0.05);" class="pb-5">
+        <div class="container pt-5">
+            <div class="row d-flex justify-content-center justify-content-xl-start">
+
+                <div class=" col-md-4 mt-md-5 pt-md-4" style="border-right: 1px solid rgba(0, 0, 0, 0.2);">
+
+                    <h2 class="lead font-weight-bold" id="forgot" style="color: #301D5B;">
+                        Forgot/Unknown Passcode
+                    </h2>
+                    <p class="font-size-large pr-md-4">Forgot passcode or the passcode was set by your kids or others without your permission.Now you need to unlock phone without passcode.</p>
+                    <div class="text-center ">
+
+                        <img src=" https://toolbox.iskysoft.com/images/article/passcode.png" alt="" style="" class="iphone-img-1"></div>
+                </div>
+
+                <div class="col-md-7 ml-md-5">
+                    <div class="segement ml-xl-3">
+                        <nav>
+                            <div class="nav nav-tabs d-flex justify-content-md-start justify-content-center" id="nav-tab" role="tablist">
+                                <a style="text-decoration: none;" class="nav-item nav-link active py-1" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><span style="" class="font-size-super   px-100 px-60">iOS</span></a>
+                                <a style="text-decoration: none;" class="nav-item nav-link py-1" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><span style="" class="font-size-super   px-75 px-50">Android</span></a>
+
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane p-2 fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <h2 class="font-weight-bold font-size-super pt-4" style="color: #0075FF;">Proven Ways:</h2>
+                                <div class="mt-3 mb-md-5">
+                                    <h3 class="font-size-super font-weight-semi-bold" style="color: #0075FF;">1. Bypass iPhone lock screen without passcode with iTunes.</h3>
+                                    <a href="#" style=" text-decoration: none; color: #000000;" class="font-size-large pt-2"><strong>A:</strong> iTunes is one of the best methods for all iOS device users. This is the official method to bypass an iPhone. You can bypass your iPhone if you have synced your device to your personal computer where iTunes is installed. First of all, connect iPhone to your computer>Launch iTunes> Restore your locked iPhone.</a>
+                                    <div> <a href="#" style=" text-decoration: none; color: #000000;" class="font-size-large">iTunes will restore your all data after the program is completed. In this way, you can bypass the iPhone lock screen without passcode with iTunes.</a></div>
+                                </div>
+                                <div class="pt-3 mb-md-5">
+                                    <h3 class="font-size-super font-weight-semi-bold" style="color: #0075FF;">2. Bypass iPhone lock screen without passcode with Find My iPhone.</h3>
+                                    <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large pt-2"><strong>A:</strong>
+                                        Find my iPhone is the built-in app on all Apple devices. This method only works if you have already activated it on your device. This method will remove all the data and then the device can be accessed very easily. First of all open and log in to the iCloud account>Now click on find iPhone>Now click erase the device. </a>
+                                    <div> <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large">This will erase all data on your phone remotely and now you can access your locked device easily. </a></div>
+                                </div>
+                                <div class="pt-3 mb-md-5">
+                                    <h3 class="font-size-super font-weight-semi-bold" style="color: #0075FF;">3. Bypass iPhone lock screen without passcode with professional screen unlock tool.</h3>
+                                    <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large pt-2"><strong>A:</strong>
+                                        If you don't have iTunes or iCloud and want to bypass your locked iPhone, you can use a data recovery tool like dr.fone. First of all Open dr.fone>connect your phone to laptop or pc>connect your device to laptop>boot device in DFU or recovery mode>choose and confirm your device>click unlock the screen.  </a>
+                                    <div> <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large">Within few seconds you can get access to your locked phone via dr.fone. This process will erase all old data on your phone. </a></div>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane p-2 fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                <h2 class="font-weight-bold font-size-super pt-4" style="color: #0075FF;">Proven Ways:</h2>
+                                <div class="mt-3 mb-md-5">
+                                    <h3 class="font-size-super font-weight-semi-bold" style="color: #0075FF;">1. Bypass Android lock screen without passcode via Android Device Manager.</h3>
+                                    <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large pt-2"><strong>A:</strong>
+                                        Android devices have a feature known as finding my device or Android Device Manager similar to Find My Mobile. This feature should be enabled on your device if you want to get access your device in this way. You can get access to your phone in 4 simple steps. </a>
+                                    <div> <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large" Visit Android device manager official site>sign in with your account>find and choose your device from list>choose the "Lock" option from three options>enter new password>tap on lock. In this way, you can get access to your android phone. </a></div>
+                                </div>
+                                <div class="pt-3 mb-md-5">
+                                    <h3 class="font-size-super font-weight-semi-bold" style="color: #0075FF;">2. Bypass Android lock screen without passcode by factory reset.</h3>
+                                    <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large pt-2"><strong>A:</strong>
+                                        You can bypass Android lock screen without passcode via factory reset. This will erase your previous data and you will get a brand new phone without any passcode. You don't need any external tool or software for this purpose. First of all turn off your device> Now press and hold Volume up, Home, and Power keys simultaneously. In some mobiles the combination is power and volume button only>Navigate via volume button and select factor reset> Confirm by selecting yes>reboot.   </a>
+                                    <div> <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large">Now you can use your phone and can set a new passcode.  
+
+                                    </a></div>
+                                </div>
+                                <div class="pt-3 mb-md-5">
+                                    <h3 class="font-size-super font-weight-semi-bold" style="color: #0075FF;">3. Bypass Android lock screen without passcode without data loss.</h3>
+                                    <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large pt-2"><strong>A:</strong>
+                                        Mostly different bypass solutions erase existing data of a phone. We can use dr.fone to remove passwords, patterns, and more. This is the best data recovery tool.  </a>
+                                    <div> <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large">First of all open dr.fone on your pc and choose screen unlock>connect your phone to pc via a good quality USB cable>Choose the model of your android device>confirm the model of your device>Put your device in download mode. Power off your device and now press and hold home, volume down and power button at the same time. After few seconds, release them and press Volume up button.> wait for some time> remove your device.  </a></div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <h2 class="lead font-weight-bold  mt-5" style="color: #301D5B;">Related Readings</h2>
+            <div class="row d-flex justify-content-center mt-3">
+                <div class="col-md-4">
+                    <div class="font-size-large text-center py-4 h-100 reading-hover " style="background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.2);">
+                        <a href="#" style="color: #000000;" class="">3 Ways to Reset iPhone Without Passcode.</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-md-0 mt-3">
+                    <div class="font-size-large text-center py-4 h-100 reading-hover" style="background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.2);">
+                        <a href="# " style="color: #000000; " class=" ">How to Factory Reset iPad Without Passcode?</a>
+                    </div>
+                </div>
+                <div class="col-md-4  mt-md-0 mt-3">
+                    <div class="font-size-large text-center py-4 h-100 reading-hover" style="background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.2);">
+                        <a href="#" style="color: #000000;" class="">3 Ways to Reset iPhone Without Passcode.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-3">
+                <div class="col-md-4">
+                    <div class="font-size-large text-center py-4 reading-hover" style="background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.2)">
+                        <a href="#" style="color: #000000;" class="">7 Ways to Unlock Android Phone Without Hassle.</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-md-0 mt-3">
+                    <div class="font-size-large text-center py-4 reading-hover" style="background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.2);">
+                        <a href="# " style="color: #000000; " class=" ">How to Unlock Android Phone using PC (3 Ways)?</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-md-0 mt-3 ">
+                    <div class="font-size-large text-center py-4 reading-hover" style="background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.2);">
+                        <a href="#" style="color: #000000;" class="">How to Reset An Android Phone When It's Locked?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pb-5">
+        <div class="container pt-5">
+            <div class="row d-flex justify-content-center justify-content-xl-start">
+
+                <div class=" col-md-4 mt-md-5 pt-md-4" style="border-right: 1px solid rgba(0, 0, 0, 0.2);">
+                    <h2 class="lead font-weight-bold" id="iphone" style="color: #301D5B;">
+                        iPhone/ Android Disabled
+                    </h2>
+                    <p class="font-size-large">iPhone/ Android is completely locked and disabled after too many wrong attempts.</p>
+                    <div class="text-center ">
+
+                        <img src=" https://toolbox.iskysoft.com/images/article/disabled.png" alt="" style="" class="iphone-img-2"></div>
+                </div>
+                <div class="col-md-7 ml-md-5">
+                    <div class="segement ml-xl-3">
+                        <nav>
+                            <div class="nav nav-tabs d-flex justify-content-md-start justify-content-center" id="nav-tab" role="tablist">
+                                <a style="text-decoration: none;" class="nav-item nav-link active py-1" id="nav-home-tab-1" data-toggle="tab" href="#nav-home-1" role="tab" aria-controls="nav-home" aria-selected="true"><span style="" class="font-size-super px-100 px-60">iOS</span></a>
+                                <a style="text-decoration: none;" class="nav-item nav-link py-1" id="nav-profile-tab-1" data-toggle="tab" href="#nav-profile-1" role="tab" aria-controls="nav-profile" aria-selected="false"><span style="" class="font-size-super   px-75 px-50">Android</span></a>
+
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane p-2 fade active show" id="nav-home-1" role="tabpanel" aria-labelledby="nav-home-tab-1">
+                                <h2 class="font-weight-bold font-size-super pt-4" style="color: #0075FF;">Proven Ways:</h2>
+                                <div class="mt-3 mb-md-5">
+                                    <h3 class="font-size-super font-weight-semi-bold" style="color: #0075FF;">1. Unlock disabled iPhone with iTunes.</h3>
+                                    <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large pt-2"><strong>A:</strong>
+                                        If you want to unlock your disabled iPhone, through iTunes it can be done within seconds. You just have to connect your phone to iTunes and it will detect issues and problems of your phone. First of all Launch iTunes on your computer> connect your phone to computer>click on the Restore button> if don't see prompt>go to summary>choose to restore iPhone>confirm. Within seconds, your device will be restored and will be able to use.  </a>
+
+                                </div>
+                                <div class="pt-3 mb-md-5">
+                                    <h3 class="font-size-super font-weight-semi-bold" style="color: #0075FF;">2. Unlock disabled iPhone with Find My iPhone.</h3>
+                                    <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large pt-2"><strong>A:</strong>
+                                        If you want to unlock a disabled iPhone via Find my iPhone, you must enable this feature on your device previously. You can restore your phone by visiting iCloud’s website. The Apple ID and password of your account must be linked to the target device. You have to visit the iCloud website>visit find my iPhone>Choose your device from listed devices>Now select erase iPhone>Enter password and security question. This will simply reset your device and erase existing data.   </a>
+
+                                </div>
+                                <div class="pt-3 mb-md-5">
+                                    <h3 class="font-size-super font-weight-semi-bold" style="color: #0075FF;">3. Unlock disabled iPhone with THIRD-PARTY screen unlock tool</h3>
+
+                                    <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large pt-2"><strong>A:</strong>
+                                        When we enter the wrong password again and again, it disables our device due to different security reasons. We can unlock our device via dr.fone. It is a dedicated tool to remove pins, passcodes and Touch ID, etc. Open dr.fone on your pc and select screen unlock> connect and your phone and press start>boot your device in DFU mode>Download firmware according to your device>unlock your device.  </a>
+                                    <div> <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large">Within seconds, you will be able to use your locked or disabled device. 
+
+                                    </a></div>
+                                </div>
+                            </div>
+                            <div class="tab-pane p-2 fade" id="nav-profile-1" role="tabpanel" aria-labelledby="nav-profile-tab-1">
+                                <h2 class="font-weight-bold font-size-super pt-4" style="color: #0075FF;">Proven Ways:</h2>
+                                <div class="mt-3 mb-md-5">
+                                    <h3 class="font-size-super font-weight-semi-bold" style="color: #0075FF;">1. Unlock disabled Android Phone with Google account.</h3>
+                                    <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large pt-2"><strong>A:</strong>
+                                        We can unlock the disabled Android phone with a Google account and can set a new password. This feature only works on Android 4.4 and below. This will not work in the latest android versions. When we try many times to unlock a phone we see a popup "forgot pattern". Click on this button and it will proceed to Google account. Here just enter your username and password in your Google account. This is a very simple method for old versions of Android.    </a>
+
+                                </div>
+                                <div class="pt-3 mb-md-5">
+                                    <h3 class="font-size-super font-weight-semi-bold" style="color: #0075FF;">2. Unlock disabled Android phone via ADB.</h3>
+                                    <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large pt-2"><strong>A:</strong>
+                                        You can unlock a disabled android phone via this technique if you know android SDK. Through command prompt and Android Debug Bridge, we can unlock a phone. Open Android Developer Website and install developer kit on your device or system>Install Android SDK on your pc>locate installed ADB via command prompt>Enter the command as “shell rm/system/gesture.key”> again enter “adb shell rm/data/system/password.key.” If it does not work you can also use other commands. When commands are processed, your phone will restart without any lock screen.    </a>
+
+                                </div>
+                                <div class="pt-3 mb-md-5">
+                                    <h3 class="font-size-super font-weight-semi-bold" style="color: #0075FF;"> 3. Unlock disabled Android phone by safe mode boot.</h3>
+
+                                    <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large pt-2"><strong>A:</strong>
+                                        We can use the safe mode boot method to unlock an android phone but this only works for third-party lock screen apps. You can do this in the following way.   </a>
+                                    <div> <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large">Press the power key for few seconds and hold the power off option when you see the power menu pop up> Now let your device boot into a safe mood when a prompt will ask you to boot your device in a safe mood>Now you can uninstall third-party software or can reset it. 
+                                    </a></div>
+                                    <div> <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large">In this way, you can unlock disable phone by safe mode. 
+
+  
+                                    </a></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <h2 class="lead font-weight-bold mt-5" style="color: #301D5B;">Related Readings</h2>
+            <div class="row d-flex justify-content-center mt-3">
+                <div class="col-md-4">
+                    <div class="font-size-large text-center py-3 py-xl-4 h-100 reading-hover" style="background: #FFFFFF;  border: 1px solid rgba(0, 0, 0, 0.2);">
+                        <a href="#" style="color: #000000;" class="">Get Locked/Disabled iPhone to Restore/<br class="d-xl-block d-none"> Update When Error 0xE8000015 Happens.</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-md-0 mt-3">
+                    <div class="font-size-large text-center py-xl-4 py-3 h-100 reading-hover" style="background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.2);">
+                        <a href="# " style="color: #000000; " class=" ">How to Fix "iPad is Disabled Connect<br class="d-xl-block d-none"> to iTunes"?</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-md-0 mt-3 ">
+                    <div class="font-size-large text-center py-xl-4 py-3 h-100 reading-hover" style="background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.2);">
+                        <a href="#" style="color: #000000;" class="">How to Unlock a Disabled iPad with/ <br class="d-xl-block d-none">without iTunes?</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-3">
+                <div class="col-md-4">
+                    <div class="font-size-large text-center py-4 h-100 reading-hover" style="background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.2)">
+                        <a href="#" style="color: #000000;" class="">Android Unlock: Best 8 Software to Unlock<br class="d-xl-block d-none"> Android Phones.</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-md-0 mt-3">
+                    <div class="font-size-large text-center py-4 h-100 reading-hover " style="background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.2);">
+                        <a href="# " style="color: #000000; " class=" ">Can I Bypass Android Lock Screen Using <br class="d-xl-block d-none">Emergency Call?</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-md-0 mt-3">
+                    <div class="font-size-large text-center py-4 h-100 reading-hover" style="background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.2);">
+                        <a href="#" style="color: #000000;" class="">3 Ways to Bypass FRP on All Samsung <br class="d-xl-block d-none">Devices.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="background: rgba(0, 168, 236, 0.05);" class="pb-5">
+        <div class="container pt-5">
+            <div class="row d-flex justify-content-center justify-content-xl-start">
+
+                <div class=" col-md-4 mt-md-4" style="border-right: 1px solid rgba(0, 0, 0, 0.2);">
+                    <h2 class="lead font-weight-bold" id="physical" style="color: #301D5B;">
+                        Physical damaged
+                    </h2>
+                    <p class="font-size-large">Can't enter the password due to the phone screen is broken after physical damage.</p>
+                    <div class="text-center"> <img src=" https://toolbox.iskysoft.com/images/article/Group 212652.png" alt="" style="" class="iphone-img-3"></div>
+                </div>
+                <div class="col-md-7 ml-md-5 ">
+                    <div class="ml-xl-3">
+                        <h2 class="font-weight-bold font-size-super pt-4" style="color: #0075FF;">Proven Ways:</h2>
+                        <div class="mt-3 mb-md-5">
+                            <h3 class="font-size-super font-weight-semi-bold" style="color: #0075FF;">1. Get into Broken screen iPhone via Siri.</h3>
+                            <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large pt-2"><strong>A:</strong>
+                                Siri feature is the best option if you want to get access to your unresponsive phone. It does not always work but still many people have tried this and successfully get access to their phones. Activate Siri by pressing the Home button> now turn on voice over via Siri and press home key> swipe left and right until you see "slide to unlock" double tap this option to go to password page>Again swipe left or right to highlight correct keys>Swipe to highlight and double hit to submit a password.   </a>
+
+                        </div>
+                        <div class="pt-3 mb-md-5">
+                            <h3 class="font-size-super font-weight-semi-bold" style="color: #0075FF;">2. Fix Broken Screen iPhone/Android phone with local phone repair service.</h3>
+                            <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large pt-2"><strong>A:</strong>
+                                If you want to fix the broken screen of your phone you should visit a professional for this purpose. Many people are providing local phone repair services and you can find one in your area accordingly. It is important to visit an experienced and professional person to fix the broken screen of your iPhone or Android phone. You can also find a professional through the internet. A professional can fix your phone easily and efficiently.   </a>
+
+                        </div>
+                        <div class="pt-3 mb-md-5">
+                            <h3 class="font-size-super font-weight-semi-bold" style="color: #0075FF;">3. Unlock broken Screen iPhone/Android phone by screen unlock tool.</h3>
+                            <a href="#" style="color: #000000; text-decoration: none;" class="font-size-large pt-2"><strong>A:</strong>
+                                To fix the broken screen of a mobile phone, we can use a good quality screen unlock tool. There are different tools but we should use joy share passcode Unlocker for this purpose. It is best to crack different types of passwords. First of all, open this software and connect your phone to pc>Put your phone into DFU mode>Download firmware accordingly>unlock your phone. This will be finished within few seconds but it will erase all previous data and settings on your phone.   </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="lead font-weight-bold mt-5" style="color: #301D5B;">Related Readings</h2>
+            <div class="row d-flex justify-content-center mt-3">
+                <div class="col-md-4">
+                    <div class="font-size-large text-center py-4 reading-hover" style="background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.2);">
+                        <a href="#" style="color: #000000;" class="">How to Unlock iPhone X with Unresponsive<br class="d-xl-block d-none"> Screen at Ease.</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-md-0 mt-3">
+                    <div class="font-size-large text-center py-4 reading-hover" style="background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.2);">
+                        <a href="# " style="color: #000000; " class=" ">How to Unlock iPhone with Broken<br class="d-xl-block d-none"> Screen?</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-md-0 mt-3">
+                    <div class="font-size-large text-center py-4 reading-hover" style="background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.2);">
+                        <a href="#" style="color: #000000;" class="">Android Touch Screen Not Working?<br class="d-xl-block d-none"> Fix it Quickly!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-3">
+                <div class="col-md-4">
+                    <div class="font-size-large text-center py-xl-4 py-3 h-100 reading-hover" style="background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.2)">
+                        <a href="#" style="color: #000000;" class="">3 Methods to Stop/Block Ads on My Lock<br class="d-xl-block d-none"> Screen for Android.</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-md-0 mt-3">
+                    <div class="font-size-large text-center py-xl-4 py-3 h-100 reading-hover" style="background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.2);">
+                        <a href="# " style="color: #000000; " class=" ">How to Unlock/Access Android Phone <br class="d-xl-block d-none">with Broken/Cracked Screen.</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-md-0 mt-3">
+                    <div class="font-size-large text-center py-xl-4 py-3 h-100 reading-hover" style="background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.2);">
+                        <a href="#" style="color: #000000;" class="">How to Unlock Huawei Home Screen <br class="d-xl-block d-none">Lock?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5" style="font-family: Nunito;">
+        <div class="container" style="border: 1px solid #E0E0E0;">
+            <div class="row d-flex justify-content-center py-5 pl-xl-5">
+                <div class="col-xl-4 d-flex justify-content-center align-content-center">
+                    <img src=" https://toolbox.iskysoft.com/images/article/dr_fone.png" alt="" class="read-img">
+                </div>
+                <div class="col-xl-8 ">
+                    <div class="d-flex justify-content-xl-start justify-content-center">
+                        <div>
+                            <h2 class="font-weight-bold font-size-42" style=""><a href="#" style="text-decoration: none;color: #301D5B;">Dr.Fone - Screen Unlock (Android)</a><br> <a href="#" style="text-decoration: none;color: #301D5B;">Dr.Fone-screen unlock(iOS)</a></h2>
+                            <h3 class="font-size-large font-weight-semi-bold">Key Features of dr.fone - Screen Unlock (Android)</h3>
+                        </div>
+                    </div>
+
+                    <ul class="pl-3 pt-3 ul-width " style="color: #404040;">
+                        <li style="list-style-type: disc;"> compatibility with any Android phones is really highlighting its effectiveness.</li>
+                        <li style="list-style-type: disc;"> Grants full privacy encryption, high-quality results, and also a free trial.</li>
+                        <li style="list-style-type: disc;"> Supports many kinds of windows operating systems, including Windows XP, Vista, 7, 8, 10. </li>
+                        <li style="list-style-type: disc;">Along with a locked screen, dr.fone can also bypass an unresponsive or unavailable screen due to any other<br class="d-xxl-block d-none"> reasons.</li>
+                    </ul>
+                    <div class="d-flex justify-content-xl-start justify-content-center font-weight-bold font-size-large  pt-4" style="font-family: Messina Sans">
+                        <a href="#" style="text-decoration: none; color: #000000;"> <span class=" px-177" style="background: #36F2B9; border-radius: 45px;"><img src=" https://toolbox.iskysoft.com/images/article/windows.svg" alt=""><span class="ml-2">Download</span></span>
+                        </a>
+                        <a href="#" style="text-decoration: none; color: #000000;"> <span class=" px-177 ml-3" style="background: #36F2B9; border-radius: 45px;"><img src=" https://toolbox.iskysoft.com/images/article/mac.svg" alt=""><span class="ml-2">Download</span></span>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="mt-md-5 pt-5 pb-5" style="font-family: Nunito;">
+        <div class="container">
+            <h2 class="text-center display-4 font-weight-bold pt-3" style="color: #301D5B;">Past 2. Remove All Types of Lock Screen on iOS & Android</h2>
+            <p class="text-center font-size-large pb-5 pt-4" style="color: #404040;"> <a href="#" style="color:#0075FF;">Dr.Fone</a> - Screen Unlock enables you to easily unlock the iPhone lock screen when you forget the passcode on your iPhone/iPad or you just don't <br class="d-xxl-block d-none">know the password on a second-hand
+                iPhone or iPad. Besides the lock screen passcode, it can also remove the Apple ID password,<br class="d-xxl-block d-none"> iCloud activation lock, Screen Time passcode, and bypass MDM management on iOS devices.</p>
+            <div class="row d-flex justify-content-center">
+                <div class=" col-12 d-flex justify-content-center">
+                    <table class="text-center table-responsive" border="1" style="border: 1px solid #E0E0E0;">
+                        <tr style="background: #F0FFF8;" class="lead font-weight-bold ">
+                            <td class="py-3 px-5">operation <br>system</td>
+                            <td colspan="7" class="">supported types of lock screen</td>
+                        </tr>
+                        <tr class="font-size-large font-weight-semi-bold " style="color: #404040;">
+                            <td class="lead  font-weight-semi-bold py-5 " style="background: #FBFBFB;color: #000000;">iOS</td>
+                            <td class=" px-5">4-digit<br> Passcode
+                            </td>
+                            <td class="px-4">6-digit<br> Passcode
+                            </td>
+                            <td class="px-4">iPhone Touch ID</td>
+                            <td class="px-5">iPhone Face ID</td>
+                            <td class="px-4">Apple ID</td>
+                            <td class="">iCloud<br> Activation Lock</td>
+                            <td class="px-4">Remove MDM Lock</td>
+                        </tr>
+                        <tr class="font-size-large font-weight-semi-bold " style="color: #404040;background: #FBFBFB; ">
+                            <td class="lead  font-weight-semi-bold py-5 " style="background: #FFFFFF;color: #000000;">Andioid</td>
+                            <td class=" ">Phone<br> Password
+                            </td>
+                            <td class="">Android Fingerprint
+                            </td>
+                            <td class="">Android<br> Phone PIN</td>
+                            <td class="">Android Phone Pattern
+                            </td>
+                            <td class="">Samsung/LG Phone</td>
+                            <td class="px-5">Any Oher<br> Android Phone</td>
+                            <td class=""></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+            <div class="d-flex justify-content-center font-weight-bold font-size-large mt-4 pt-3" style="font-family: Messina Sans">
+                <a href="#" style="text-decoration: none; color: #000000;"> <span class=" px-177" style="background: #36F2B9; border-radius: 45px;"><img src=" https://toolbox.iskysoft.com/images/article/windows.svg" alt=""><span class="ml-2">Download</span></span>
+                </a>
+                <a href="#" style="text-decoration: none; color: #000000;"> <span class=" px-177 ml-3" style="background: #36F2B9; border-radius: 45px;"><img src=" https://toolbox.iskysoft.com/images/article/mac.svg" alt=""><span class="ml-2">Download</span></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="text-center pb-5" style="border-bottom: 1px solid #E0E0E0;">
+                <h2 class="lead text-center font-weight-bold mt-4">Simple Steps to Bypass Lock Screen on iOS &amp; Android</h2>
+                <p class="text-center font-size-large font-weight-semi-bold pt-3">Steps to Remove iPhone Lock Screen</p>
+                <div class="swiper-container mb-3 mt-4">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide text-center"><img src=" https://toolbox.iskysoft.com/images/article/android-unlock-step-3.png" alt="" class="simple-img">
+                            <p class="font-size-large">Step 1: Launch Dr.Fone and connect your iPhone.</p>
+                        </div>
+                        <div class="swiper-slide text-center"><img src=" https://toolbox.iskysoft.com/images/article/android-unlock-step-3.png" alt="" class="simple-img">
+                            <p class="font-size-large">Step 2: Select and download the iPhone firmware.</p>
+                        </div>
+                        <div class="swiper-slide text-center"><img src=" https://toolbox.iskysoft.com/images/article/android-unlock-step-3.png" alt="" class="simple-img">
+                            <p class="font-size-large">Step 3: Click Unlock and the iPhone will be unlocked.</p>
+                        </div>
+
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <a href="#" class="font-size-small " style="text-decoration: none; color: #0075FF;"> View Detallied Guide  >>></a>
+            </div>
+            <div class="text-center pb-5 mt-md-5 pt-3" style="border-bottom: 1px solid #E0E0E0;">
+                <h2 class="lead text-center font-weight-bold mb-3">Steps to Remove Android Lock Screen</h2>
+
+                <div class="swiper-container mb-3 mt-4">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide text-center"><img src=" https://toolbox.iskysoft.com/images/article/iphone-unlock-step-1.png" alt="" class="simple-img">
+                            <p class="font-size-large">Step 1: Connect your Android to PC.</p>
+                        </div>
+                        <div class="swiper-slide text-center"><img src=" https://toolbox.iskysoft.com/images/article/iphone-unlock-step-1.png" alt="" class="simple-img">
+                            <p class="font-size-large">Step 2: Select Andriod model details.</p>
+                        </div>
+                        <div class="swiper-slide text-center"><img src=" https://toolbox.iskysoft.com/images/article/iphone-unlock-step-1.png" alt="" class="simple-img">
+                            <p class="font-size-large">Step 3: Remove the lock screen of Android.</p>
+                        </div>
+
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <a href="#" class="font-size-small " style="text-decoration: none; color: #0075FF;"> View Detallied Guide  >>></a>
+            </div>
+        </div>
+    </section>
+    <section style="font-family: Nunito;" class="mb-5">
+        <div class="container mt-md-5">
+            <h2 class="text-center pt-3 pb-3 display-4 font-weight-bold">Supported iOS & Android screen unlock types</h2>
+            <div class="segement">
+                <div class="d-flex justify-content-center mt-3">
+                    <nav class="">
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a style="text-decoration: none;" class="nav-item nav-link active py-1" id="nav-home-tab-2" data-toggle="tab" href="#nav-home-2" role="tab" aria-controls="nav-home" aria-selected="true"><span style="" class="font-size-super   px-100 px-60">iOS</span></a>
+                            <a style="text-decoration: none;" class="nav-item nav-link py-1" id="nav-profile-tab-2" data-toggle="tab" href="#nav-profile-2" role="tab" aria-controls="nav-profile" aria-selected="false"><span style="" class="font-size-super   px-75 px-50">Android</span></a>
+
+                        </div>
+                    </nav>
+                </div>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane p-2 fade active show " id="nav-home-2" role="tabpanel" aria-labelledby="nav-home-tab-2">
+                        <div class="row d-flex justify-content-center mt-3">
+                            <div class="col-md-9">
+
+                                <table class="text-left " style="">
+                                    <tr class="font-size-large tr-hover  " style="border-bottom: 1px solid #E0E0E0; ">
+
+                                        <td class="mt-1 pl-2  pr-4 py-90 td-3">01 iPhone Passcode Unlick</td>
+                                        <td class="font-weight-normal font-size-super">/</td>
+                                        <td class="mt-1 pl-4 td-2"><a href="#" style="text-decoration: none; color: #000000;">3 Ways to Remove Passcode from iPhone/iPad Easily.</a></td>
+                                        <td>
+                                            <a href="#"> <img class="mt-1 pr-2 icon-img" src=" https://toolbox.iskysoft.com/images/article/akar-icons_arrow-down.svg" alt="" style="margin-left: 90px;"></a>
+                                        </td>
+
+                                    </tr>
+                                    <tr class="font-size-large  tr-hover " style="border-bottom: 1px solid #E0E0E0;">
+                                        <td class="mt-1 pl-2 pr-4 py-90 ">02 Touch ID Unlock</td>
+                                        <td class="font-weight-normal font-size-super">/</td>
+                                        <td class="mt-1 pl-4 td-2">
+                                            <a href="#" style="color: #000000;text-decoration:none;">All Things You Want to Know About Setting a Touch ID on Mac.</a>
+                                        </td>
+                                        <td>
+                                            <a href="#"> <img class="mt-1 pr-2 icon-img" src=" https://toolbox.iskysoft.com/images/article/akar-icons_arrow-down.svg" alt="" style="margin-left: 90px;"></a>
+                                        </td>
+                                    </tr>
+                                    <tr class="font-size-large tr-hover " style="border-bottom: 1px solid #E0E0E0;">
+                                        <td class="mt-1 pl-2 pr-4 py-90 ">03 Face ID Unlock</td>
+                                        <td class="font-weight-normal font-size-super">/</td>
+                                        <td class="mt-1 pl-4"><a href="#" style="color: #000000;text-decoration: none;">Is Face ID Secure? Can a Picture Unlock Face ID?</a></td>
+                                        <td>
+                                            <a href="#"> <img class="mt-1 pr-2 icon-img" src=" https://toolbox.iskysoft.com/images/article/akar-icons_arrow-down.svg" alt="" style="margin-left: 90px;"></a>
+                                        </td>
+                                    </tr>
+                                    <tr class="font-size-large tr-hover " style="border-bottom: 1px solid #E0E0E0;">
+                                        <td class="mt-1 pl-2 pr-4 py-90 ">04 Apple ID Unlock</td>
+                                        <td class="font-weight-normal font-size-super">/</td>
+                                        <td class="mt-1 pl-4"><a href="#" style="text-decoration: none; color: #000000;">How to Unlock Apple ID Without Email and Security Questions?</a></td>
+                                        <td>
+                                            <a href="#"> <img class="mt-1 pr-2 icon-img" src=" https://toolbox.iskysoft.com/images/article/akar-icons_arrow-down.svg" alt="" style="margin-left: 90px;"></a>
+                                        </td>
+                                    </tr>
+                                    <tr class="font-size-large tr-hover " style="border-bottom: 1px solid #E0E0E0;">
+                                        <td class="mt-1 pl-2  py-90 td-3 ">05 iCloud Activation Unlock</td>
+                                        <td class="font-weight-normal font-size-super">/</td>
+                                        <td class="mt-1 pl-4">
+                                            <a href="#" style="color: #000000;text-decoration: none;">4 Proven Ways to Unlock iCloud ID.</a>
+                                        </td>
+                                        <td>
+                                            <a href="#"> <img class="mt-1 pr-2 icon-img" src=" https://toolbox.iskysoft.com/images/article/akar-icons_arrow-down.svg" alt="" style="margin-left: 90px;"></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane p-2 fade" id="nav-profile-2" role="tabpanel" aria-labelledby="nav-profile-tab-2">
+                        <div class="row d-flex justify-content-center mt-3">
+                            <div class="col-md-9">
+
+
+                                <table class="text-left " style="">
+                                    <tr class="font-size-large  tr-hover " style="border-bottom: 1px solid #E0E0E0; ">
+                                        <td class="mt-1 pl-2 pr-4 py-90 td-3">01 Android Password Unlock</td>
+                                        <td class="font-weight-normal font-size-super">/</td>
+                                        <td class="mt-1 pl-4 td-2">
+                                            <a href="#" style="text-decoration: none; color: #000000;">How to Unlock Android Phone without Code/Password in Minutes?</a>
+                                        </td>
+                                        <td>
+                                            <a href="#"> <img class="mt-1 pr-2 icon-img" src=" https://toolbox.iskysoft.com/images/article/akar-icons_arrow-down.svg" alt="" style="margin-left: 90px;"></a>
+                                        </td>
+                                    </tr>
+                                    <tr class="font-size-large  tr-hover" style="border-bottom: 1px solid #E0E0E0;">
+                                        <td class="mt-1 pl-2 pr-4 py-90">02 Android Fingerprint Unlock</td>
+                                        <td class="font-weight-normal font-size-super">/</td>
+                                        <td class="mt-1 pl-4">
+                                            <a href="#" style="color: #000000; text-decoration: none;">All Things about How to Unlock Fingerprint on Android.</a>
+                                        </td>
+                                        <td>
+                                            <a href="#"> <img class="mt-1 pr-2 icon-img" src=" https://toolbox.iskysoft.com/images/article/akar-icons_arrow-down.svg" alt="" style="margin-left: 90px;"></a>
+                                        </td>
+                                    </tr>
+                                    <tr class="font-size-large tr-hover " style="border-bottom: 1px solid #E0E0E0;">
+                                        <td class="mt-1 pl-2 pr-4 py-90">03 Phone Pattern Unlock</td>
+                                        <td class="font-weight-normal font-size-super">/</td>
+                                        <td class="mt-1 pl-4">
+                                            <a href="#" style="color: #000000; text-decoration: none;">20 Great & Hard Pattern Lock Ideas for Android Phones.</a>
+                                        </td>
+                                        <td>
+                                            <a href="#"> <img class="mt-1 pr-2 icon-img" src=" https://toolbox.iskysoft.com/images/article/akar-icons_arrow-down.svg" alt="" style="margin-left: 90px;"></a>
+                                        </td>
+                                    </tr>
+                                    <tr class="font-size-large tr-hover" style="border-bottom: 1px solid #E0E0E0;">
+                                        <td class="mt-1 pl-2 pr-4 py-90">04 Phone PIN Unlock</td>
+                                        <td class="font-weight-normal font-size-super">/</td>
+                                        <td class="mt-1 pl-4"><a href="#" style="text-decoration: none;color: #000000;">How to Unlock Samsung S4 Password/ PIN/Pattern?</a></td>
+                                        <td>
+                                            <a href="#"> <img class="mt-1 pr-2 icon-img" src=" https://toolbox.iskysoft.com/images/article/akar-icons_arrow-down.svg" alt="" style="margin-left: 90px;"></a>
+                                        </td>
+                                    </tr>
+                                    <tr class="font-size-large tr-hover" style="border-bottom: 1px solid #E0E0E0;">
+                                        <td class="mt-1 pl-2  py-90 td-3">05 Phone PIN Unlock</td>
+                                        <td class="font-weight-normal font-size-super">/</td>
+                                        <td class="mt-1 pl-4">
+                                            <a href="#" style="text-decoration: none; color: #000000;">How to Reset LG Phone When Locked Out?</a>
+                                        </td>
+                                        <td>
+                                            <a href="#"> <img class="mt-1 pr-2 icon-img" src=" https://toolbox.iskysoft.com/images/article/akar-icons_arrow-down.svg" alt="" style="margin-left: 90px;"></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div style="background: rgba(0, 168, 236, 0.05);" class="mt-5 pb-5">
+                <div class="pt-5 pl-4 pr-md-5 mr-md-5 ">
+                    <h2 class=" font-weight-bold pt-3" style="font-size: 1.5rem;">Notes: </h2>
+                    <div style="color: #404040;line-height: 25px; " class="font-weight-semi-bold font-size-large mb-md-5 pb-xxl-3">1. <a href="#" style="text-decoration: none;color: #0075FF;">Dr.Fone </a> removes your iPhone lock screen in just minutes and helps you to regain full access to your device. Please remember it will delete the data on your iPhone/iPad.
+                        Currently, Dr. fFone just can remove MDM without data loss, and there is no solution at all to bypass other types of iPhone lock screen without data loss on the market.
+                        <p class="pt-2">2. Dr.Fone supports to remove all types of Android lock screen without data loss on all mainstream Android models including Samsung/ LG/ Huawei/ Lenovo/ Xiaomi and many other Android phones.</p>
+                    </div>
+
+                </div>
+                <div class="row d-flex mb-md-3 ">
+                    <div class="col-xxl-6 d-flex justify-content-center "><img src=" https://toolbox.iskysoft.com/images/article/note_1.png" alt="" class="logo-img-1 mt-xxl-3"></div>
+                    <div class="col-xxl-6 d-flex justify-content-center mt-3"><img src=" https://toolbox.iskysoft.com/images/article/note_2.png" alt=" " class="logo-img-2"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section style="font-family: Nunito;" class="mb-md-5 pb-5 mt-md-5 pt-5">
+        <div class="container pb-3 ">
+            <h2 class="text-center display-4 font-weight-bold pt-3" style="color: #301D5B;">
+                Past 3. Tips & Tricks on Screen Unlock/Data Management
+            </h2>
+            <p class="text-center pt-3">
+                <!--加文字在这里-->
+                if you are looking for a second-hand or used mobile phone, you must keep in mind these points. stay away from stolen phones Check hardware thoroughly choose according to your budget watch out for fake phone execute a service code test Buying a second
+                hand or old mobile is the best way to save money. But is important to check all the factors to avoid any kind of inconvenience. if you are looking for a second-hand or used mobile phone, you must keep in mind these points. stay away from
+                stolen phones Check hardware thoroughly choose according to your budget watch out for fake phone execute a service code test Buying a second hand or old mobile is the best way to save money. But is important to check all the factors to
+                avoid any kind of inconvenience.</p>
+            <div class="segement mt-4">
+                <ul class="list-group" id="accordion" role="tablist">
+                    <li class="list-group-item py-4 collapsed with-hand " aria-expanded="false" role="tab" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
+                        <div>
+                            <h2 class="font-size-super font-weight-bold">How to Unlock Phone Screen without Data Loss?</h2>
+                            <div class="d-flex justify-content-between mt-3">
+                                <p class="font-size-huge font-weight-normal " style=""> Want to get into the lockedphone, but don't want to lose data on your phone?</p>
+                                <span class="more"> </span>
+                            </div>
+
+                        </div>
+                        <div id="collapseOne" class="collapse font-size-huge " aria-labelledby="headingOne" data-parent="#accordion"><strong>A:</strong> fact, you can't unlock iPhone screen without data loss, but you can unlock Samsung and other Android Phones without data loss with available tool, Dr. Fone - Screen Unlock (Android) to bypass lock screen within
+                            a few minitues.</div>
+                    </li>
+                    <li class="list-group-item py-4 with-hand  collapsed" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" role="tab">
+                        <div class=" font-weight-medium">
+                            <h2 class="font-size-super font-weight-bold">How Many Times Can I Try to Unlock My iPhone?</h2>
+                            <div class="d-flex justify-content-between  mt-3">
+                                <p class="font-size-huge font-weight-normal tips-text" style=""> 5 incorrect passcode entries in a row, it shows "iPhone is disabled, try again in 1 minute"; 7 incorrect passcode entries in a row, it .... ....</p>
+                                <span class="more"></span>
+                            </div>
+                        </div>
+                        <div id="collapseTwo" class="collapse font-size-huge " aria-labelledby="headingTwo" data-parent="#accordion" style=""><strong>A:</strong>5 incorrect passcode entries in a row, it shows "iPhone is disabled, try again in 1 minute"; 7 incorrect passcode entries in a row, it shows "iPhone is disabled, try again in 5 minutes"; 10 incorrect passcode
+                            entries in a row, it shows "iPhone is disabled, connect to iTunes". After 10 incorrect passcode entries, your device will be completely locked and you will have to restore your iPhone to get it unlocked.</div>
+                    </li>
+                    <li class="list-group-item py-4 collapsed with-hand" id="headingThree " data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" role="tab">
+                        <div class=" font-weight-medium ">
+                            <h2 class="font-size-super font-weight-bold">Things You Need to Know About Buying a Second-hand Phone.</h2>
+                            <div class="d-flex justify-content-between mt-3">
+                                <p class="font-size-huge font-weight-normal tips-text" style=""> If you are looking for a second-hand or used mobile phone, you must keep in mind these points</p>
+                                <span class="more"></span>
+                            </div>
+                        </div>
+                        <div id="collapseThree" class="collapse font-size-huge " aria-labelledby="headingThree" data-parent="#accordion" style="">
+                            <strong>A:</strong> If you are looking for a second-hand or used mobile phone, you must keep in mind these points.
+                            <ul class="ml-4">
+                                <li style="list-style-type: disc;">stay away from stolen phones </li>
+                                <li style="list-style-type: disc;">Check hardware thoroughly </li>
+                                <li style="list-style-type: disc;">choose according to your budget </li>
+                                <li style="list-style-type: disc;">watch out for the fake phone </li>
+                                <li style="list-style-type: disc;">execute a service code test </li>
+                            </ul>
+                            Buying a second-hand or old mobile is the best way to save money. But is important to check all the factors to avoid any kind of inconvenience.
+                        </div>
+                    </li>
+                    <li class="list-group-item py-4 with-hand  collapsed" id="headingfour" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapseOne" role="tab">
+                        <div class="">
+                            <h2 class="font-size-super font-weight-bold">What Should I do Before Selling the Old iPhone/ Android Phone?</h2>
+                            <div class="d-flex justify-content-between mt-3">
+                                <p class="font-size-huge font-weight-normal tips-text " style=""> If you want to donate or sell your mobile phone, you must have a copy of all your personal data. You should backup your contacts, messages and .... ....</p>
+                                <span class="more"></span></div>
+                        </div>
+                        <div id="collapsefour" class="collapse font-size-huge " aria-labelledby="headingOne" data-parent="#accordion">
+                            <strong>A:</strong>If you want to donate or sell your mobile phone, you must have a copy of all your data. You should backup your contacts, messages and WhatsApp data. It is also very important to log out from all your accounts
+                            and perform a factory reset before selling your phone. This will erase all old data on your phone. Also, check the gallery and SD card to avoid any kind of inconvenience. </div>
+                    </li>
+                    <li class="list-group-item py-4 with-hand  collapsed" id="headingfive" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapseOne" role="tab">
+                        <div class="">
+                            <h2 class="font-size-super font-weight-bold">How to Recover Lost Data from Broken Screen Android Phone?</h2>
+                            <div class="d-flex justify-content-between mt-3">
+                                <p class="font-size-huge font-weight-normal tips-text" style="">If your android phone’s touch is not working or broken and you want to get access to your data, then you must use dr.fone. You can get your data .... ....</p>
+                                <span class="more"></span></div>
+                        </div>
+                        <div id="collapsefive" class="collapse font-size-huge " aria-labelledby="headingOne" data-parent="#accordion">
+                            <strong>A:</strong> If your android phone’s touch is not working or broken and you want to get access to your data, then you must use dr.fone. You can get your data within few clicks.<br> Install and open dr.fone on your pc>choose
+                            data extraction>connect your phone to pc>select touchscreen not responsive>choose the model of your phone>follow instructions and continue>Select files accordingly. Dr.fone is a very reliable data recovery tool and we can get
+                            back lost data within few seconds. </div>
+                    </li>
+                    <li class="list-group-item py-4 with-hand  collapsed" id="headingsix" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapseOne" role="tab">
+                        <div class="">
+                            <h2 class="font-size-super font-weight-bold">How to Backup Data from Dead Android to Computer?</h2>
+                            <div class="d-flex justify-content-between mt-3">
+                                <p class="font-size-huge font-weight-normal tips-text" style="">
+                                    We can backup data from dead android to computer by connecting it with a computer. We can backup audios, pictures and videos in this process .... </p>
+                                <span class="more"></span>
+                            </div>
+                        </div>
+                        <div id="collapsesix" class="collapse font-size-huge " aria-labelledby="headingOne" data-parent="#accordion">
+                            <strong>A:</strong>We can backup data from dead android to a computer by connecting it with a computer. We can backup audio, pictures, and videos in this process. We can use dr.fone to backup all data on a computer. <br> Connect
+                            your phone to pc and launch dr.fone>choose data extraction>choose data files>choose nature of problem>confirm your phone model> follow instructions. This is the authentic way to backup data from dead android to computer. We
+                            can choose and select data files accordingly. </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
